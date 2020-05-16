@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3dce28dae7c8d4b449af67f68b918d33
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mico: {fileID: 21300000, guid: ffc47bed493e56949af91012d6e7e881, type: 3}
+  - chape: {fileID: 21300000, guid: 94cfc1c0e78fd0941981026e4255e7ae, type: 3}
+  - verso: {fileID: 21300000, guid: 991ef46038f77cd44a11c9b01c4bb939, type: 3}
+  - somCarta: {fileID: 8300000, guid: 366a190c21eefb347b6253981a09997b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
