@@ -855,4 +855,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/levelOne.unity
   - Assets/Scenes/Instructions.unity
   - Assets/Scenes/levelTwo.unity
-  playerPath: /home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Build/v2.3.apk
+  playerPath: /home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Build/v2.5.apk

@@ -87,6 +87,7 @@ public class GameControllerScript : MonoBehaviour
         else if (baralho[botao] == valorBase)
         {
             cartaBase.image.sprite = imageCards[baralho[botao]];
+            new WaitForSeconds(0.7f);
             cartasGO[botao].SetActive(false);
             valorBase++;
             contJogada = 0;
