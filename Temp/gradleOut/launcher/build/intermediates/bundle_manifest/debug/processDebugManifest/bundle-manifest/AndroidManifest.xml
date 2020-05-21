@@ -43,7 +43,7 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="reverseLandscape"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -71,7 +71,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="88ca37d5-f25a-44a7-af45-a2a51c845e54" />
+            android:value="a504639a-2ed0-4b18-bb9a-a89c7aad3d0a" />
     </application>
 
 </manifest>

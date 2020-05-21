@@ -274,7 +274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 51, y: 81}
+  m_AnchoredPosition: {x: 153, y: 81}
   m_SizeDelta: {x: 75, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172275316
@@ -545,7 +545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: -48}
+  m_AnchoredPosition: {x: -144, y: -2}
   m_SizeDelta: {x: 75, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603799422
@@ -704,7 +704,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650263116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 347, y: 167, z: -445}
+  m_LocalPosition: {x: 347, y: 190, z: -227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -745,7 +745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 52, y: -105}
+  m_AnchoredPosition: {x: 57, y: -105}
   m_SizeDelta: {x: 75, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &719983748
@@ -1088,7 +1088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 52, y: -46}
+  m_AnchoredPosition: {x: 263, y: -14}
   m_SizeDelta: {x: 75, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910515051
@@ -1271,13 +1271,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985367646}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 347, y: 188, z: 0}
-  m_LocalScale: {x: 8, y: 12, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 347, y: 188, z: 108}
+  m_LocalScale: {x: 12, y: 18, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &985367648
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1436,7 +1436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SCENE: 1
-  NEXTSCENENAME: levelTow
   mensagemGO: {fileID: 991895490}
   voltarMenuGO: {fileID: 830225981}
   reiniciarGO: {fileID: 116717176}

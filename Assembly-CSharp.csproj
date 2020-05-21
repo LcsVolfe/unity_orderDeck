@@ -61,7 +61,6 @@
      <Compile Include="Assets\Imagens\rodaAnimacao.cs" />
      <Compile Include="Assets\Scripts\GameControllerScript.cs" />
      <Compile Include="Assets\Scripts\InstructionsController.cs" />
-     <Compile Include="Assets\Scripts\LevelOne.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Sharp Text Mesh\Script\SharpText.cs" />
      <Compile Include="Assets\Sharp Text Mesh\Script\SharpText_Demo.cs" />

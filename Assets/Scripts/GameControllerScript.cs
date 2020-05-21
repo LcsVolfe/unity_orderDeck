@@ -11,8 +11,7 @@ public class GameControllerScript : MonoBehaviour
 {
     
     public int SCENE;
-    public String NEXTSCENENAME;
-    
+ 
     public GameObject mensagemGO;
     public GameObject voltarMenuGO;
     public GameObject reiniciarGO;
@@ -142,7 +141,10 @@ public class GameControllerScript : MonoBehaviour
     {
         mensagemText.text = "Parabéns!";
         mensagemGO.SetActive(true);
-        new WaitForSeconds(0.5f);
-        SceneManager.LoadScene(NEXTSCENENAME);
+        new WaitForSeconds(2f);
+        
+        if(SCENE == 1) SceneManager.LoadScene("levelTwo");
+        else if(SCENE == 2) SceneManager.LoadScene("index");
+        
     }
 }
