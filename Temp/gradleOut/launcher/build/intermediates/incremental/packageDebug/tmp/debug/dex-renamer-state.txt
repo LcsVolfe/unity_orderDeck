@@ -1,4 +1,4 @@
-#Fri May 15 21:56:17 ART 2020
-base.0=/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/debug/0
+#Wed May 20 23:16:39 ART 2020
+base.0=/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

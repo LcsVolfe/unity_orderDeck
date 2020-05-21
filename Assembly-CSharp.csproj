@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED082401-04A6-7D57-5DB4-FA81E9F42703}</ProjectGuid>
+    <ProjectGuid>{873AD62E-2613-1D3D-9BCD-B383CBFA92D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,65 +60,68 @@
   <ItemGroup>
      <Compile Include="Assets\Imagens\rodaAnimacao.cs" />
      <Compile Include="Assets\Scripts\GameControllerScript.cs" />
+     <Compile Include="Assets\Scripts\InstructionsController.cs" />
+     <Compile Include="Assets\Scripts\LevelOne.cs" />
+     <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Sharp Text Mesh\Script\SharpText.cs" />
      <Compile Include="Assets\Sharp Text Mesh\Script\SharpText_Demo.cs" />
      <None Include="Assets\Sharp Text Mesh\Documentation.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/home/fedora/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,13 +295,13 @@
  <HintPath>/home/fedora/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/home/fedora/workspace/Uno/desv_jogos/OrdenarCartas/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>/home/fedora/workspace/Uno/desv_jogos/unity_orderDeck/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/home/fedora/Unity/Hub/Editor/2019.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

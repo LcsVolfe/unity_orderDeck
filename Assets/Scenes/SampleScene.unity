@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 119, y: -38}
-  m_SizeDelta: {x: 75, y: 120}
+  m_AnchoredPosition: {x: 54, y: -38}
+  m_SizeDelta: {x: 60, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &115420754
 MonoBehaviour:
@@ -713,7 +713,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 68, y: 99}
-  m_SizeDelta: {x: 75, y: 120}
+  m_SizeDelta: {x: 37, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &643677643
 MonoBehaviour:
@@ -1521,8 +1521,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183, y: -47}
-  m_SizeDelta: {x: 75, y: 120}
+  m_AnchoredPosition: {x: -76, y: -47}
+  m_SizeDelta: {x: 15, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1516984685
 MonoBehaviour:
@@ -1916,8 +1916,9 @@ MonoBehaviour:
   coringa: {fileID: 21300000, guid: 6d94e824705a640718160f010d16b6d8, type: 3}
   valorBase: 0
   contJogada: 3
-  contRodadas: 0
+  level: 5
   baralho: 
+  somCarta: {fileID: 8300000, guid: 366a190c21eefb347b6253981a09997b, type: 3}
 --- !u!4 &1702180097
 Transform:
   m_ObjectHideFlags: 0
