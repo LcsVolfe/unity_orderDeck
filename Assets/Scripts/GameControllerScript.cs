@@ -87,8 +87,7 @@ public class GameControllerScript : MonoBehaviour
         else if (baralho[botao] == valorBase)
         {
             cartaBase.image.sprite = imageCards[baralho[botao]];
-            new WaitForSeconds(0.7f);
-            cartasGO[botao].SetActive(false);
+            StartCoroutine(desativarCarta(botao));
             valorBase++;
             contJogada = 0;
             if (valorBase == level)
@@ -121,6 +120,12 @@ public class GameControllerScript : MonoBehaviour
         yield return new WaitForSeconds(0.7f);
         botoes[carta].image.sprite = verso;
     }
+    
+    IEnumerator desativarCarta(int botao)
+    {
+        yield return new WaitForSeconds(0.7f);
+        cartasGO[botao].SetActive(false);
+    }
 
     IEnumerator gameOver()
     {
@@ -145,7 +150,10 @@ public class GameControllerScript : MonoBehaviour
         new WaitForSeconds(2f);
         
         if(SCENE == 1) SceneManager.LoadScene("levelTwo");
-        else if(SCENE == 2) SceneManager.LoadScene("index");
+        else if(SCENE == 2) SceneManager.LoadScene("levelTree");
+        else if(SCENE == 3) SceneManager.LoadScene("levelFour");
+        else if(SCENE == 4) SceneManager.LoadScene("levelFive");
+        else if(SCENE == 5) SceneManager.LoadScene("index");
         
     }
 }

@@ -4,9 +4,17 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - mico: {fileID: 21300000, guid: ffc47bed493e56949af91012d6e7e881, type: 3}
-  - chape: {fileID: 21300000, guid: 94cfc1c0e78fd0941981026e4255e7ae, type: 3}
-  - verso: {fileID: 21300000, guid: 991ef46038f77cd44a11c9b01c4bb939, type: 3}
+  - mensagemGO: {instanceID: 0}
+  - voltarMenuGO: {instanceID: 0}
+  - reiniciarGO: {instanceID: 0}
+  - reiniciar: {instanceID: 0}
+  - voltarMenu: {instanceID: 0}
+  - cartaBase: {instanceID: 0}
+  - jogadaText: {instanceID: 0}
+  - rodadaText: {instanceID: 0}
+  - mensagemText: {instanceID: 0}
+  - verso: {fileID: 21300000, guid: e3facde0ea5325e1594d338596e33767, type: 3}
+  - coringa: {fileID: 21300000, guid: 6d94e824705a640718160f010d16b6d8, type: 3}
   - somCarta: {fileID: 8300000, guid: 366a190c21eefb347b6253981a09997b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}

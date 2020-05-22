@@ -4,18 +4,24 @@ using UnityEngine.UI;
 
 public class MenuController : MonoBehaviour
 {
-
+    AudioSource recursoSom;
+    public AudioClip som;
+    
     public string scene = "index";
     public Button[] botoes; 
 
     void Start ()
     {
+       
         for(int i = 0; i < botoes.Length; i++)
         {
             int index = i;
             botoes[i].onClick.AddListener(() => ButtonClicked(index)); 
         }
-	
+        recursoSom = GetComponent<AudioSource>();
+        recursoSom.clip = som;
+        recursoSom.Play();
+
     }
 
     private void ButtonClicked(int i)
